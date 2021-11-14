@@ -1,0 +1,1 @@
+SCHTASKS /CREATE /SC DAILY /TN "beauty ptt  task" /TR %~dp0daily.bat /ST 03:52
